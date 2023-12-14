@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile → Courses - LMSmart - LearnPress </title>
+
+    <link rel="shortcut icon" href="images/cropped-lmsmart-logo-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="profile-header">
+        <h1>Profile</h1>
+        <div class="home-profile">
+            <a id="home" href="https://thepixelcurve.com/wp/lmsmart/lp/">Home</a>
+            <span class="slash">/</span>
+            <span id="profile" class="span-profile">Profile</span>
+        </div>
+    </div>
+    <main class="form container">
+        <div id="login">
+            <h3>Login</h3>
+            <div class="form-ul">
+                <ul>
+                    <li>
+                        <label class="form-user" for="username">Username or email *</label>
+                    </li>
+                    <li> <input class="login-input" id="username" name="username" type="text"
+                            placeholder=" Email or username" onclick="myFunction()">
+                    </li>
+
+                    <li>
+                        <label class="form-password" for="password">Password *</label>
+                    </li>
+
+                    <li class="pasw-eye">
+
+                        <input class="login-input" type="password" name="password" id="password" placeholder="Password" onclick="myFunction()">
+                        <i class="fa-sharp fa-solid fa-eye-slash" id="togglePassword"></i>
+                    </li>
+                </ul>
+
+                <div class="checkbox ">
+                    <input type="checkbox" id="vehicle1">
+                    <label class="remember-me" for="vehicle1"> Remember me</label><br>
+                </div>
+                <button class="login-button">Login</button>
+                <div><a href="#" class="lost-p">Lost your password?</a></div>
+            </div>
+        </div>
+        <div id="register">
+            <h3>Register</h3>
+            <div class="form-ul2">
+
+
+
+                <ul>
+                    <li><label for="email-2" id="email"> Email address *</label></li>
+                    <li> <input class="register-input" id="email-2" type="email" placeholder="Email" onclick="myFunction()"></li>
+
+
+                    <li>
+                        <label id="username" for="r-user">Username *</label>
+                    </li>
+                    <li class="r-user">
+                        <input class="register-input" id="r-user" name="r-user" type="text" placeholder="Username" onclick="myFunction()">
+                    </li>
+
+                    <li>
+                        <label for="password-2" class="passw-2">Password *</label>
+                    </li>
+                    <li class="r-pasw">
+                        <input placeholder="Password" class="register-input" id="password-2" type="password" onclick="myFunction()">
+                        <i class="fa-sharp fa-solid fa-eye-slash" id="togglePassword2"></i>
+
+                    </li>
+
+                    <li id="confirm-password">
+                        <label for="password-3">Confirm Password *</label>
+                    </li>
+                    <li class="confirm-passw">
+                        <input class="register-input" type="password" name="password" id="password-3"
+                            placeholder="Password" onclick="myFunction()">
+                        <i class="fa-sharp fa-solid fa-eye-slash" id="togglePassword3"></i>
+                    </li>
+                </ul>
+
+
+
+
+
+
+                <div class="checkbox align-items-center  ">
+                    <input type="checkbox" id="vehicle2">
+                    <label class="checkbox-2" for="vehicle2"> Want to become an instructor?</label><br>
+
+                </div>
+                <button class="register-button">Register</button>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

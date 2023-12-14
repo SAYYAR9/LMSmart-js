@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@import"_profile.scss";
+@import"_login.scss";
+@import "_register.scss";
+
+
+@media (max-width: 1024px) {
+    .form {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .login , .register {
+        width: initial !important;
+    }
+}

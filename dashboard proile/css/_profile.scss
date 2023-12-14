@@ -1,0 +1,62 @@
+.profile-header {
+    background: url(../images/REJ93.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center bottom ;
+    background-color: #FCFCF2;
+    min-height: 325px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    h1 {
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        ;
+        color: #072f60;
+        font-size: 46px;
+        font-weight: 600;
+
+    }
+
+    .home-profile {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: #666666;
+            transition: 0.5s;
+
+            &:hover {
+                color: #3bbca7;
+
+            }
+        }
+
+        .slash {
+            color: #666666;
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+        .span-profile {
+            color: #3bbca7;
+            transition: 0.5s;
+
+            &:hover {
+                color: #666666;
+            }
+
+        }
+    }
+}
+
+@media  (max-width:1024px){
+    .profile-header{
+        padding-top: 70px !important;
+    padding-bottom: 70px !important;
+    min-height: auto !important;
+    }
+}
